@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "check-redirects": "node scripts/check-redirects.mjs"
   },
   "dependencies": {
-    "next": "15.5.9",
+    "next": "15.5.29",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
